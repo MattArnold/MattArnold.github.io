@@ -1,9 +1,15 @@
 <!DOCTYPE HTML>
 <html>
-{% include head.html %}
+<head>
+</head>
 <body>
 <header>
-{{ page.title }}
+  <ul>
+    {% assign mypages = site.pages | sort: "order" %}
+    {% for page in mypages %}
+    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
 </header>
 <div class="main">
 <div class="container">
@@ -16,5 +22,4 @@
 <p>The personal information you supply, if any, will not be given away or sold under any circumstances.</p>
 </footer>
 </body>
-{% include scripts.html %}
 </html>
