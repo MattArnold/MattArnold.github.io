@@ -1,5 +1,14 @@
 # Magic Meeple... The Boardgame People!
 
+- Home
+- Games
+- News
+- Contact Us
+- About M.M.G.
+- Crafting
+- Shop
+- Events/CONs
+
 <a href="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/">![](https://magicmeeplegames.com/wp-content/uploads/2017/12/LastChance-1.png)</a>
 
 ![](https://magicmeeplegames.com/wp-content/uploads/2017/12/ProgressBar_IncomingTransmission.jpg)
