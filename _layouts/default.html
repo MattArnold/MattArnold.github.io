@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+{% include head.html %}
+<body>
+<header>
+{{ page.title }}
+</header>
+<div class="main">
+<div class="container">
+{{ page.content }}
+</div>
+</div>
+<footer>
+<p>&reg; Copyright 2015-{{ site.time | date: '%y' }} Magic Meeple Games, LLC. All Rights Reserved</p>
+<p>Privacy Policy: Magic Meeple Games does not knowingly collect information from its visitors without their permission or knowledge.</p>
+<p>The personal information you supply, if any, will not be given away or sold under any circumstances.</p>
+</footer>
+</body>
+{% include scripts.html %}
+</html>
