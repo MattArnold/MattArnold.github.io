@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: default.html
 ---
 
 {% include progressbar.html logo="incoming-transmission-logo.jpg" alt-text="Incoming Transmission" percent_complete="10%" link="Pre-Kickstarter Review And Development" status_message="" %}
