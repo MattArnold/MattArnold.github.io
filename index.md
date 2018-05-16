@@ -5,10 +5,10 @@ layout: default
 
 <a href="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/">![](https://magicmeeplegames.com/wp-content/uploads/2017/12/LastChance-1.png)</a>
 
-![](https://magicmeeplegames.com/wp-content/uploads/2017/12/ProgressBar_IncomingTransmission.jpg)
+{% include progressbar logo="incoming-transmission-logo.jpg" alt-text="Incoming Transmission" percent="10%" link="" %}
 
-<a href="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/">![](https://magicmeeplegames.com/wp-content/uploads/2017/12/ProgressBar_Overworld-1.jpg)</a>
+{% include progressbar logo="overworld-logo.png" alt-text="Overworld" percent="90%" link="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/" %}
 
-<a href="https://magicmeeplegames.com/shop/">![](https://magicmeeplegames.com/wp-content/uploads/2017/12/ProgressBar_FoE.jpg)</a>
+{% include progressbar logo="fire-of-eidolon-logo.jpg" alt-text="Fire Of Eidolon" percent="100%" link="" %}
 
-<a href="https://magicmeeplegames.com/shop/">![](https://magicmeeplegames.com/wp-content/uploads/2015/03/ProgressBar_DRV.jpg)</a>
+{% include progressbar logo="incoming-transmission-logo.jpg" alt-text="Incoming Transmission" percent="100%" link="" %}
