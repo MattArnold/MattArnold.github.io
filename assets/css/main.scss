@@ -47,3 +47,40 @@ div.menu li {
 	float: left;
 	position: relative;
 }
+
+/* Progress Bars */
+.progressbar {
+    background-color: skyblue;
+    padding: 1rem;
+    clear: both;
+    height: 6rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.progressbar > div {
+    height: 5rem;
+    display: inline-block;
+    float: left;
+    margin: 0.5rem;
+}
+.inline-logo {
+    width: 12rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.whole-meter {
+    position: relative;
+    margin-top: 0.5rem;
+    background-color: grey;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.whole-meter > span {
+    display: block;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+}
