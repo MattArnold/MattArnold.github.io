@@ -1,10 +1,10 @@
 <div class="progressbar">
-  <div class="inline-logo" style="background-image: url(assets/images/{{ include.logo }})" alt-text="{{ include.alt_text }}">
+  <div class="inline-logo" style="background-image: url(assets/images/{{ include.logo }})" role="img" alt="{{ include.alt }}">
   </div>
   <div class="project-status">Project Status:
     <div class="whole-meter">
-      <span style="width: {{ include.percent_complete }}"></span>
-      {{ include.status_message }}
+      <span style="width: {{ include.percent }}"></span>
+      {{ include.status }}
     </div>
   </div>
 </div>
