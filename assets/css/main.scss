@@ -48,12 +48,13 @@ body {
 }
 .container {
 	width: 80%;
-	border-right: 5px solid $primary-light;
+	border-right: 12rem solid $primary-light;
 }
 .header, .main, .footer{
 	position: relative;
 	clear: both;
 	margin: 0 auto;
+	margin-bottom: 2rem;
 	padding: 1rem;
 	background-color: $primary-very-light;
 	width: 65rem;
