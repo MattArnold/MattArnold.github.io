@@ -71,6 +71,7 @@ div.menu li {
 }
 .whole-meter {
     display: flex;
+    align-items: center;
     position: relative;
     height: 2rem;
     margin-top: 0.5rem;
@@ -82,9 +83,11 @@ div.menu li {
     display: block;
     height: 100%;
     border-radius: 1rem;
-    background-color: green;
     position: absolute;
     height: 2rem;
+}
+.meter-bar {
+    background-color: green;
     overflow: hidden;
 }
 .project-status {
