@@ -1,1 +1,0 @@
-This file exists temporarily in order to create a /assets/images/ folder using only the GitHub website.
