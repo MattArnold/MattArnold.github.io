@@ -24,10 +24,9 @@ $complement-very-dark: #413000;	// cola, yellowish brown */
 
 body {
     font-family: "Tahoma", sans-serif;
-    font-size: 16px;
     text-decoration: none;
     line-height: 1;
-    padding: 21px 0 30px 0;
+    padding: 1rem;
     background-color: $secondary-dark;
     background-image: 
     radial-gradient(circle at 100% 150%, $secondary-dark 24%, $secondary-very-dark 25%, $secondary-very-dark 28%, $secondary-dark 29%, $secondary-dark 36%, $secondary-very-dark 36%, $secondary-very-dark 40%, transparent 40%, transparent),
@@ -35,11 +34,11 @@ body {
     radial-gradient(circle at 50%  100%, $secondary-very-dark 10%, $secondary-dark 11%, $secondary-dark 23%, $secondary-very-dark 24%, $secondary-very-dark 30%, $secondary-dark 31%, $secondary-dark 43%, $secondary-very-dark 44%, $secondary-very-dark 50%, $secondary-dark 51%, $secondary-dark 63%, $secondary-very-dark 64%, $secondary-very-dark 71%, transparent 71%, transparent),
     radial-gradient(circle at 100% 50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent),
     radial-gradient(circle at 0    50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent);
-    background-size:100px 50px;
+    background-size: 100px 50px;
 }
 .main {
 	width: 65rem;
-	margin: 1rem auto 1rem auto;
+	margin: 1rem;
 	text-align: left;
 }
 .header {
@@ -63,13 +62,12 @@ body {
 }
 
 /* Navigation */
-div.menu-header ul,
-div.menu ul {
+.header ul {
 	list-style: none;
 	display:inline-block;
 	margin: 0;
 }
-#access .menu-header li,
+.header li,
 div.menu li {
 	float: left;
 	position: relative;
