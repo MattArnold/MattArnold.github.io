@@ -3,9 +3,8 @@
   </div>
   <div class="project-status">Project Status:
     <div class="whole-meter">
-      {% assign computed = include.percent * 0.93 %}
-      <span class="status-message">{{ include.status }} - {{ computed }}</span>
-      <span class="meter-bar" style="width: {{ computed }}"></span>
+      <span class="status-message">{{ include.status }} </span>
+      <span class="meter-bar" style="width: {{ include.percent | times: 0.93 }}"></span>
     </div>
   </div>
 </div>
