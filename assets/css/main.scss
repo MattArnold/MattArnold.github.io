@@ -86,6 +86,9 @@ div.menu li {
     position: absolute;
     height: 2rem;
 }
+.status-message {
+    z-index: 100;
+}
 .meter-bar {
     background-color: green;
     overflow: hidden;
