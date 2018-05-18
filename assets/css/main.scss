@@ -9,6 +9,14 @@ body {
     line-height: 1;
     padding: 21px 0 30px 0;
     background: #f1f1f1 url(images/body.jpg);
+    background-color: #f1f1f1;
+    background-image: 
+    radial-gradient(circle at 100% 150%, silver 24%, #f1f1f1 25%, #f1f1f1 28%, silver 29%, silver 36%, #f1f1f1 36%, #f1f1f1 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, #f1f1f1 25%, #f1f1f1 28%, silver 29%, silver 36%, #f1f1f1 36%, #f1f1f1 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #f1f1f1 10%, silver 11%, silver 23%, #f1f1f1 24%, #f1f1f1 30%, silver 31%, silver 43%, #f1f1f1 44%, #f1f1f1 50%, silver 51%, silver 63%, #f1f1f1 64%, #f1f1f1 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #f1f1f1 5%, silver 6%, silver 15%, #f1f1f1 16%, #f1f1f1 20%, silver 21%, silver 30%, #f1f1f1 31%, #f1f1f1 35%, silver 36%, silver 45%, #f1f1f1 46%, #f1f1f1 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, #f1f1f1 5%, silver 6%, silver 15%, #f1f1f1 16%, #f1f1f1 20%, silver 21%, silver 30%, #f1f1f1 31%, #f1f1f1 35%, silver 36%, silver 45%, #f1f1f1 46%, #f1f1f1 49%, transparent 50%, transparent);
+    background-size:100px 50px;
 }
 .main {
 	text-align: left;
