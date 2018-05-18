@@ -23,7 +23,7 @@ $complement-dark: #755B12;	// raw umber, yellow ochre tan */
 $complement-very-dark: #413000;	// cola, yellowish brown */
 
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: "Tahoma", sans-serif;
     font-size: 16px;
     text-decoration: none;
     line-height: 1;
@@ -44,9 +44,10 @@ body {
 	padding: 1px 0 60px 0;
 }
 .header {
-	height: 201px;
+	height: 16rem;
 	position: relative;
-	background: url(assets/images/magic-meeple-games-logo.png) no-repeat 600px 90px;
+	background: url("/assets/images/magic-meeple-games-logo.png") no-repeat 14rem;
+	background-position: 1rem 1rem;
 }
 .container {
 	margin: 0 auto;
