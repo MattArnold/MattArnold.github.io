@@ -1,21 +1,40 @@
 ---
 ---
 
+/* main color is shades of grayish gunmetal blue*/
+$color-primary-0: #29526D;	// mid blue */
+$color-primary-1: #83A4B9;	// very light blue */
+$color-primary-2: #4D758E;	// light blue */
+$color-primary-3: #0F344B;	// dark blue */
+$color-primary-4: #021A29;	// almost black blue */
+
+/*secondary color is shades of lavender and purple */
+$color-secondary-0: #333676;	// dark purple */
+$color-secondary-1: #9092C4;	// very light lavender */
+$color-secondary-2: #5A5D9B;	// mid purple */
+$color-secondary-3: #161951;	// very dark purple */
+$color-secondary-4: #06082D;	// almost black purple */
+
+/* complement color is shades of yellow and ochre */
+$color-complement-0: #AA8C39;	// gold */
+$color-complement-1: #FFEAB0;	// peach, almost white yellow */
+$color-complement-2: #DFC272;	// light ochre yellow */
+$color-complement-3: #755B12;	// raw umber, yellow ochre tan */
+$color-complement-4: #413000;	// cola, yellowish brown */
+
 body {
     font-family: Tahoma, sans-serif;
     font-size: 16px;
-    color: #000000;
     text-decoration: none;
     line-height: 1;
     padding: 21px 0 30px 0;
-    background: #f1f1f1 url(images/body.jpg);
-    background-color: #f1f1f1;
+    background-color: $color-secondary-3;
     background-image: 
-    radial-gradient(circle at 100% 150%, silver 24%, #ccc 25%, #ccc 28%, silver 29%, silver 36%, #ccc 36%, #ccc 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0    150%, silver 24%, #ccc 25%, #ccc 28%, silver 29%, silver 36%, #ccc 36%, #ccc 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50%  100%, #ccc 10%, silver 11%, silver 23%, #ccc 24%, #ccc 30%, silver 31%, silver 43%, #ccc 44%, #ccc 50%, silver 51%, silver 63%, #ccc 64%, #ccc 71%, transparent 71%, transparent),
-    radial-gradient(circle at 100% 50%, #ccc 5%, silver 6%, silver 15%, #ccc 16%, #ccc 20%, silver 21%, silver 30%, #ccc 31%, #ccc 35%, silver 36%, silver 45%, #ccc 46%, #ccc 49%, transparent 50%, transparent),
-    radial-gradient(circle at 0    50%, #ccc 5%, silver 6%, silver 15%, #ccc 16%, #ccc 20%, silver 21%, silver 30%, #ccc 31%, #ccc 35%, silver 36%, silver 45%, #ccc 46%, #ccc 49%, transparent 50%, transparent);
+    radial-gradient(circle at 100% 150%, $color-secondary-4 24%, $color-secondary-3 25%, $color-secondary-3 28%, $color-secondary-4 29%, $color-secondary-4 36%, $color-secondary-3 36%, $color-secondary-3 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, $color-secondary-4 24%, $color-secondary-3 25%, $color-secondary-3 28%, $color-secondary-4 29%, $color-secondary-4 36%, $color-secondary-3 36%, $color-secondary-3 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, $color-secondary-3 10%, $color-secondary-4 11%, $color-secondary-4 23%, $color-secondary-3 24%, $color-secondary-3 30%, $color-secondary-4 31%, $color-secondary-4 43%, $color-secondary-3 44%, $color-secondary-3 50%, $color-secondary-4 51%, $color-secondary-4 63%, $color-secondary-3 64%, $color-secondary-3 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, $color-secondary-3 5%, $color-secondary-4 6%, $color-secondary-4 15%, $color-secondary-3 16%, $color-secondary-3 20%, $color-secondary-4 21%, $color-secondary-4 30%, $color-secondary-3 31%, $color-secondary-3 35%, $color-secondary-4 36%, $color-secondary-4 45%, $color-secondary-3 46%, $color-secondary-3 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, $color-secondary-3 5%, $color-secondary-4 6%, $color-secondary-4 15%, $color-secondary-3 16%, $color-secondary-3 20%, $color-secondary-4 21%, $color-secondary-4 30%, $color-secondary-3 31%, $color-secondary-3 35%, $color-secondary-4 36%, $color-secondary-4 45%, $color-secondary-3 46%, $color-secondary-3 49%, transparent 50%, transparent);
     background-size:100px 50px;
 }
 .main {
@@ -25,23 +44,23 @@ body {
 .header {
 	height: 201px;
 	position: relative;
-	background: url(images/main-header.png) no-repeat 600px 90px;
+	background: url(images/magic-meeple-logo.png) no-repeat 600px 90px;
+	background-color: $color-secondary-1;
 }
-.wrapper {
+.container {
 	width: 1174px;
 	margin: 0 auto;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	padding: 6px 13px 0 13px;
-	background: #ffffff;
 }
-#footer {
-	height: 79px;
+.header, .main, .footer{
 	position: relative;
 	clear: both;
 	margin: 77px 0 0 0;
 	padding: 1px 0 0 0;
+	background-color: $color-primary-1;
 }
 /* Navigation */
 div.menu-header ul,
@@ -59,7 +78,7 @@ div.menu li {
 /* Progress Bars */
 .progressbar {
     display: flex;
-    background-color: skyblue;
+    background-color: $color-primary-2;
     padding: 1rem;
     clear: both;
     height: 6rem;
