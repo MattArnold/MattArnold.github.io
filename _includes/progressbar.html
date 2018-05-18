@@ -4,7 +4,7 @@
   <div class="project-status">Project Status:
     <div class="whole-meter">
       {{ include.status }}
-      <% assign computed = include.percent * 0.93 %>
+      {% assign computed = include.percent * 0.93 %}
       <span style="width: {{ computed }}"></span>
     </div>
   </div>
