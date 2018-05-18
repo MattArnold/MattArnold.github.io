@@ -2,25 +2,25 @@
 ---
 
 /* main color is shades of grayish gunmetal blue*/
-$color-primary-0: #29526D;	// mid blue */
-$color-primary-1: #83A4B9;	// very light blue */
-$color-primary-2: #4D758E;	// light blue */
-$color-primary-3: #0F344B;	// dark blue */
-$color-primary-4: #021A29;	// almost black blue */
+$primary-mid: #29526D;	// mid blue */
+$primary-very-light: #83A4B9;	// very light blue */
+$primary-light: #4D758E;	// light blue */
+$primary-dark: #0F344B;	// dark blue */
+$primary-very-dark: #021A29;	// almost black blue */
 
-/*secondary color is shades of lavender and purple */
-$color-secondary-0: #333676;	// dark purple */
-$color-secondary-1: #9092C4;	// very light lavender */
-$color-secondary-2: #5A5D9B;	// mid purple */
-$color-secondary-3: #161951;	// very dark purple */
-$color-secondary-4: #06082D;	// almost black purple */
+/* secondary color is shades of lavender and purple */
+$secondary-mid: #333676;	// dark purple */
+$secondary-very-light: #9092C4;	// very light lavender */
+$secondary-light: #5A5D9B;	// mid purple */
+$secondary-dark: #161951;	// very dark purple */
+$secondary-very-dark: #06082D;	// almost black purple */
 
 /* complement color is shades of yellow and ochre */
-$color-complement-0: #AA8C39;	// gold */
-$color-complement-1: #FFEAB0;	// peach, almost white yellow */
-$color-complement-2: #DFC272;	// light ochre yellow */
-$color-complement-3: #755B12;	// raw umber, yellow ochre tan */
-$color-complement-4: #413000;	// cola, yellowish brown */
+$complement-mid: #AA8C39;	// gold */
+$light-complement-very-light: #FFEAB0;	// peach, almost white yellow */
+$complement-light: #DFC272;	// light ochre yellow */
+$complement-dark: #755B12;	// raw umber, yellow ochre tan */
+$complement-very-dark: #413000;	// cola, yellowish brown */
 
 body {
     font-family: Tahoma, sans-serif;
@@ -28,16 +28,18 @@ body {
     text-decoration: none;
     line-height: 1;
     padding: 21px 0 30px 0;
-    background-color: $color-secondary-3;
+    background-color: $secondary-dark;
     background-image: 
-    radial-gradient(circle at 100% 150%, $color-secondary-3 24%, $color-secondary-4 25%, $color-secondary-4 28%, $color-secondary-3 29%, $color-secondary-3 36%, $color-secondary-4 36%, $color-secondary-4 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0    150%, $color-secondary-3 24%, $color-secondary-4 25%, $color-secondary-4 28%, $color-secondary-3 29%, $color-secondary-3 36%, $color-secondary-4 36%, $color-secondary-4 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50%  100%, $color-secondary-4 10%, $color-secondary-3 11%, $color-secondary-3 23%, $color-secondary-4 24%, $color-secondary-4 30%, $color-secondary-3 31%, $color-secondary-3 43%, $color-secondary-4 44%, $color-secondary-4 50%, $color-secondary-3 51%, $color-secondary-3 63%, $color-secondary-4 64%, $color-secondary-4 71%, transparent 71%, transparent),
-    radial-gradient(circle at 100% 50%, $color-secondary-4 5%, $color-secondary-3 6%, $color-secondary-3 15%, $color-secondary-4 16%, $color-secondary-4 20%, $color-secondary-3 21%, $color-secondary-3 30%, $color-secondary-4 31%, $color-secondary-4 35%, $color-secondary-3 36%, $color-secondary-3 45%, $color-secondary-4 46%, $color-secondary-4 49%, transparent 50%, transparent),
-    radial-gradient(circle at 0    50%, $color-secondary-4 5%, $color-secondary-3 6%, $color-secondary-3 15%, $color-secondary-4 16%, $color-secondary-4 20%, $color-secondary-3 21%, $color-secondary-3 30%, $color-secondary-4 31%, $color-secondary-4 35%, $color-secondary-3 36%, $color-secondary-3 45%, $color-secondary-4 46%, $color-secondary-4 49%, transparent 50%, transparent);
+    radial-gradient(circle at 100% 150%, $secondary-dark 24%, $secondary-very-dark 25%, $secondary-very-dark 28%, $secondary-dark 29%, $secondary-dark 36%, $secondary-very-dark 36%, $secondary-very-dark 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, $secondary-dark 24%, $secondary-very-dark 25%, $secondary-very-dark 28%, $secondary-dark 29%, $secondary-dark 36%, $secondary-very-dark 36%, $secondary-very-dark 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, $secondary-very-dark 10%, $secondary-dark 11%, $secondary-dark 23%, $secondary-very-dark 24%, $secondary-very-dark 30%, $secondary-dark 31%, $secondary-dark 43%, $secondary-very-dark 44%, $secondary-very-dark 50%, $secondary-dark 51%, $secondary-dark 63%, $secondary-very-dark 64%, $secondary-very-dark 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent);
     background-size:100px 50px;
 }
 .main {
+	width: 65rem;
+	margin: 1rem auto 1rem auto;
 	text-align: left;
 	padding: 1px 0 60px 0;
 }
@@ -48,7 +50,6 @@ body {
 	background-color: $color-secondary-1;
 }
 .container {
-	width: 1174px;
 	margin: 0 auto;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -61,6 +62,8 @@ body {
 	margin: 77px 0 0 0;
 	padding: 1px 0 0 0;
 	background-color: $color-primary-1;
+	width: 65rem;
+	margin: 1rem auto 1rem auto;
 }
 /* Navigation */
 div.menu-header ul,
@@ -78,12 +81,13 @@ div.menu li {
 /* Progress Bars */
 .progressbar {
     display: flex;
-    background-color: $color-primary-2;
+    background-color: $complement-mid;
     padding: 1rem;
     clear: both;
     height: 6rem;
     margin: 1rem;
     border-radius: 0.5rem;
+    border-color: $complement-dark;
 }
 .progressbar > div {
     height: 5rem;
@@ -102,7 +106,7 @@ div.menu li {
     position: relative;
     height: 2rem;
     margin-top: 0.5rem;
-    background-color: grey;
+    background-color: $complement-dark;
     border-radius: 2rem;
     padding: 0.5rem;
 }
@@ -117,7 +121,7 @@ div.menu li {
     padding-left: 1rem;
 }
 .meter-bar {
-    background-color: #98eab6;
+    background-color: $complement-light;
     overflow: hidden;
     height: 2rem;
 }
