@@ -140,3 +140,23 @@ div.menu li {
 .project-status {
     flex-grow: 1;
 }
+
+/* float image */
+.float_image {
+    position: relative;
+    height: 8rem;
+    width: 10rem;
+    border: 0.5rem solid $complement-mid
+}
+.float_image > span.bottom {
+    position: absolute;
+    bottom: 0;
+}
+.caption {
+    color: $complement-very-light;
+    font-size: large;
+    font-weight: bold;
+    -webkit-box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
+    -moz-box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
+}
