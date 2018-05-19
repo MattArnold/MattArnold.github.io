@@ -8,9 +8,9 @@
 <div class="header">
   <ul>
     {% assign mypages = site.pages | sort: "order" %}
-    {% for page in mypages %}
-    {% if page.category == "pages" %}
-    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+    {% for nav in mypages %}
+    {% if nav.category == "pages" and nav.title != page.title %}
+    <li><a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a></li>
     {% endif %}
     {% endfor %}
   </ul>
