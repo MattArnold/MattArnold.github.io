@@ -9,4 +9,4 @@ layout: default
 
 {% include progressbar.html logo="fire-of-eidolon-logo.jpg" alt="Fire Of Eidolon" percent="100%" status="In stock now! Click here!" %}
 
-{% include progressbar.html logo="incoming-transmission-logo.jpg" alt="Incoming Transmission" percent="100%" status="In stock now! Click here!" %}
+{% include progressbar.html logo="darkrock_ventures.png" alt="Darkrock Ventures" percent="100%" status="In stock now! Click here!" %}
