@@ -2,7 +2,7 @@
 title: About Us
 layout: default
 category: pages
-order: 1
+order: 2
 ---
 # Publishers: Ian and Trish Stedman
 
@@ -25,3 +25,4 @@ Keep track of all their upcoming projects on Facebook, Instagram, YouTube, Board
 Nemo got into game design in 2003, at the first Penguicon (a convention of all geeky interests) and has been helping to run the convention ever since, where he playtests new board games of his own design every year.
 
 He laser-cuts his game prototypes at the local hackerspace i3Detroit, where he teaches classes on how to use Adobe Illustrator to create cutting paths for machine tools.
+
