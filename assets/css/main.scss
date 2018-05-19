@@ -66,13 +66,19 @@ body {
 /* Navigation */
 .header ul {
 	list-style: none;
-	display:inline-block;
-	margin: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 .header li,
 div.menu li {
-	float: left;
-	position: relative;
+    font-size: large;
+    font-weight: bold;
+    float: left;
+    background-color: $primary-light;
+    padding: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border-radius: 1rem;
 }
 
 /* Progress Bars */
