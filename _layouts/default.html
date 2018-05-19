@@ -9,7 +9,9 @@
   <ul>
     {% assign mypages = site.pages | sort: "order" %}
     {% for page in mypages %}
+    {% if page.category == "pages" %}
     <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
