@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Game Progress
 layout: default
 category: pages
 order: 1
