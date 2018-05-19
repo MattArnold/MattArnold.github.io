@@ -1,6 +1,8 @@
 ---
 title: About Us
 layout: default
+category: pages
+order: 1
 ---
 # Publishers: Ian and Trish Stedman
 
